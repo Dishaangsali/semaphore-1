@@ -1,0 +1,9 @@
+---
+- name: create user
+  hosts: cloud
+  tasks:
+        - name: create a user name ruby
+          user:
+                name: ruby
+                uid: 5658
+                state: present
