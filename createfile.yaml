@@ -1,0 +1,9 @@
+---
+- name: create file
+  hosts: cloud
+  tasks:
+        - name: creating an empty file
+          file:
+                path: /home/hcligt/demo-file.txt
+                state: touch
+          become: yes
