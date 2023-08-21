@@ -1,6 +1,6 @@
 ---
 - name: create file
-  hosts: cloud
+  hosts: all
   tasks:
         - name: creating an empty file
           file:
