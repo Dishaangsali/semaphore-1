@@ -4,6 +4,6 @@
   tasks:
         - name: creating an empty file
           file:
-                path: /home/bst83356/demo-file.txt
+                path: /home/user/demo-file.txt
                 state: touch
           become: yes
