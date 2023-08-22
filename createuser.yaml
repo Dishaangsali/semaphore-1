@@ -1,6 +1,8 @@
 ---
 - name: create user
   hosts: all
+  vars: 
+    host_key_checking: false
   tasks:
         - name: create a user name ruby
           user:
