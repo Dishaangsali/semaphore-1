@@ -4,6 +4,6 @@
   tasks:
         - name: create a user name ruby
           user:
-                name: ruby
-                uid: 1002
+                name: ariel
+                uid: 1003
                 state: present
