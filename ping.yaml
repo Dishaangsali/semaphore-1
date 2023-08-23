@@ -3,5 +3,4 @@
   hosts: all
   tasks:
         - name: pinging a server to check the connectivity
-          ansible.netcommon.net_ping:
-            dest: 10.2.228.135
+          action: ping
