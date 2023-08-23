@@ -3,10 +3,9 @@
   hosts: all
   vars: 
     host_key_checking: false
-    ansible_connection: ssh
   tasks:
-        - name: create a user name ruby
+        - name: create a user named rio
           user:
-                name: ariel
-                uid: 1003
+                name: rio
+                uid: 5067
                 state: present
