@@ -3,6 +3,7 @@
   hosts: all
   vars: 
     host_key_checking: false
+    ansible_connection: local
   tasks:
         - name: create a user name ruby
           user:
