@@ -2,9 +2,10 @@
 - name: checking connection with windows vm
   hosts: all
   become: false
+  remote_user: bst83356
   tasks:
         - name: ping windows vm
           ansible.windows.win_powershell:
             script: |
-              Test-Connection -ComputerName 10.210.82.248
+              Test-Connection -ComputerName 10.92.253.172
          
