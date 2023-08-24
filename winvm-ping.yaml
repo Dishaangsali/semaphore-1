@@ -3,6 +3,7 @@
   hosts: all
   tasks:
         - name: ping windows vm
-          win_ping:
-            dest: 10.92.253.172
+          ansible.windows.win_powershell:
+            script: |
+              Test-Connection -ComputerName 10.92.253.172
          
