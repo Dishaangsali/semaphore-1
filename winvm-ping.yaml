@@ -3,6 +3,7 @@
   hosts: all
   become: false
   remote_user: bst83356
+  ansible_winrm_transport: ntlm
   tasks:
         - name: ping windows vm
           ansible.windows.win_powershell:
