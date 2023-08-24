@@ -1,0 +1,8 @@
+---
+- name: checking connection with windows vm
+  hosts: all
+  tasks:
+        - name: ping windows vm
+          win_ping:
+            dest: 10.92.253.172
+         
