@@ -1,6 +1,6 @@
 ---
 - name: checking connection 
-  hosts: cloud
+  hosts: all
   become: false
   tasks:
         - name: pinging a server to check the connectivity
