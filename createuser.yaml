@@ -5,5 +5,5 @@
         - name: creating the user
           user:
                 name: kat
-                uid: 5068
+                uid: 5069
                 state: present
