@@ -4,8 +4,8 @@
   vars: 
     host_key_checking: false
   tasks:
-        - name: create a user named rio
+        - name: creating the user
           user:
-                name: rio
-                uid: 5067
+                name: kat
+                uid: 5068
                 state: present
