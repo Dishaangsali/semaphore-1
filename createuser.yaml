@@ -1,8 +1,6 @@
 ---
 - name: create user
   hosts: all
-  vars: 
-    host_key_checking: false
   tasks:
         - name: creating the user
           user:
