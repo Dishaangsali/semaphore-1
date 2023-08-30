@@ -1,0 +1,7 @@
+---
+- name: print a greeting statement
+  hosts: all
+  tasks:
+    - name: Display user and uid
+      debug:
+        msg: "User: {{ ansible_user }} , Uid: {{ ansible_id }}"
