@@ -4,4 +4,4 @@
   tasks:
     - name: Display user and uid
       debug:
-        msg: "User: {{ ansible_user }} , Uid: {{ ansible_id }}"
+        msg: "User: {{ ansible_human }} , Uid: {{ ansible_roll }}"
