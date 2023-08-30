@@ -1,5 +1,5 @@
 ---
-- name: print a greeting statement
+- name: print info
   hosts: all
   tasks:
     - name: Display user and uid
