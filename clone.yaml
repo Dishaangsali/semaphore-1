@@ -11,3 +11,4 @@
         - name: execute a file
           shell:
                 "./home/hcligt/semaphore-1/clone.sh"
+          force: yes
