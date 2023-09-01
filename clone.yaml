@@ -14,6 +14,6 @@
               force: yes
         - name: execute bash file
           shell: 
-                "./clone.sh"
+                "sudo bash clone.sh"
         
       
