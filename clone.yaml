@@ -1,0 +1,13 @@
+--- 
+- name: cloning a git repo
+  hosts: all
+  tasks:
+        - name: clone a github repository with ansible
+          git:
+              repo: https://github.com/Dishaangsali/semaphore-1.git
+              dest: /home/hcligt
+              clone: yes
+              update: yes
+        - name: execute a file
+          shell:
+                "./home/hcligt/semaphore-1/clone.sh"
