@@ -9,7 +9,4 @@
               clone: yes
               update: yes
               force: yes
-        - name: execute a file
-          shell:
-                "./home/hcligt/semaphore-1/clone.sh"
-          
+      
