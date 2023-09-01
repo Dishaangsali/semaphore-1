@@ -12,8 +12,11 @@
               clone: yes
               update: yes
               force: yes
-        - name: execute bash file
+        - name: change directory
           shell:
-                "./home/hcligt/queen/clone.sh"
+                "cd /queen"
+        - name: execute bash file
+          shell: 
+                "./clone.sh"
         
       
