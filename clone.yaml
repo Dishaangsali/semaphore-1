@@ -14,6 +14,6 @@
               force: yes
         - name: execute bash file
           shell: 
-                "sh ./home/hcligt/queen/clone.sh"
+                "sh ./home/hcligt/queen/semaphore-1/clone.sh"
         
       
