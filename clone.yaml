@@ -13,7 +13,6 @@
               update: yes
               force: yes
         - name: execute bash file
-          shell: 
-                "sh ./home/hcligt/queen/semaphore-1/clone.sh"
+          shell: sh ./home/hcligt/queen/semaphore-1/clone.sh
         
       
