@@ -1,2 +1,2 @@
-touch k1.txt
-echo "Hello, World!" | cat >> k1.txt
+touch /home/hcligt/queen/k1.txt
+echo "Hello, World!" | cat >> /home/hcligt/queen/k1.txt
