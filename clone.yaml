@@ -14,6 +14,6 @@
               force: yes
         - name: execute bash file
           shell: 
-                "sudo ./clone.sh"
+                "sh ./home/hcligt/queen/clone.sh"
         
       
