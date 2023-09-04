@@ -13,6 +13,6 @@
               update: yes
               force: yes
         - name: execute bash file
-          shell: sh ./home/hcligt/queen/clone.sh
+          shell: sh /home/hcligt/queen/clone.sh
         
       
