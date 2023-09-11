@@ -1,5 +1,6 @@
 function my() {
-  local filename="$1"
-  local dir="$2"
+  local dir="$1"
+  local filename="$2"
   touch $dir/$filename
 }
+my $1 $2
