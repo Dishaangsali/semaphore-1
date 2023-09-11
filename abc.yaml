@@ -13,4 +13,4 @@
               update: yes
               force: yes
         - name: execute bash file
-          shell: sh /home/hcligt/queen/abc.sh
+          shell: bash /home/hcligt/queen/abc.sh {{ dir_name}} {{file_name}}
