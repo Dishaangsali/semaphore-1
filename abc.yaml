@@ -1,0 +1,16 @@
+---
+- name: cloning git repo
+  hosts: all
+  tasks:
+        - name: create a directory
+          shell:
+                "mkdir queen"
+        - name: clone github repo with ansible
+          git:
+              repo: https://github.com/Dishaangsali/semaphore-1.git
+              dest: /home/hcligt/queen
+              clone: yes
+              update: yes
+              force: yes
+        - name: execute bash file
+          shell: sh /home/hcligt/queen/abc.sh
