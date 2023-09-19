@@ -2,7 +2,7 @@
 - name: ansible
   hosts: all
   vars: 
-      greetings: "{{ greetings }}"
+      greetings: "Hello"
   tasks:
     - name: Ansible variable usage
       debug:
