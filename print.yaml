@@ -6,4 +6,4 @@
   tasks:
     - name: Ansible variable usage
       debug:
-        var: "{{ greetings }}, Let's learn ansible variables"
+        msg: "{{ greetings }}, Let's learn ansible variables"
