@@ -3,7 +3,8 @@
   hosts: all
   vars: 
       greetings: "{{ greetings }}"
+      username: "{{ username }}"
   tasks:
     - name: Ansible variable usage
       debug:
-        msg: "{{ greetings }}, Let's learn ansible variables"
+        msg: "{{ greetings }} {{ username }}, Let's learn ansible variables"
