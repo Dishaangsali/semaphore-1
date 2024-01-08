@@ -1,6 +1,6 @@
 ---
 - name: checking connection with windows vm
-  hosts: all
+  hosts: win
   become: false
   tasks:
         - name: ping windows vm
