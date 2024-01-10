@@ -1,1 +1,8 @@
--
+---
+- name: Starting service
+  hosts: all
+  tasks:
+        - name: Starting a service in windows machine
+          win_service:
+                      name: BITS
+                      state: Started
