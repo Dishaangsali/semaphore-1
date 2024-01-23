@@ -1,6 +1,7 @@
 ---
 - name: ping windows machine 
   hosts: win
+  gather_facts: false
   tasks:
         - name: pinging a server to check the connectivity
           win_ping:
