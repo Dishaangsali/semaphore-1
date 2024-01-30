@@ -1,0 +1,11 @@
+---
+- name: Prompt User
+  hosts: all
+  vars_prompt:
+              - name: username
+                prompt: Enter your Username
+                private: false
+  tasks:
+        - name: printing the output
+          debug:
+            msg: 'Hello, {{ username }}!'
