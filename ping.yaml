@@ -3,4 +3,4 @@
   hosts: all
   tasks:
         - name: pinging a server to check the connectivity
-          ping:
+          win_ping:
