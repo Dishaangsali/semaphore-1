@@ -7,4 +7,4 @@
   tasks:
     - name: Ansible greetings
       debug:
-        msg: "{{ greetings }} {{ username }}, Let's learn ansible variables"
+        msg: "{{ greetings }}, Let's learn ansible variables, {{ username }}"
